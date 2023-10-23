@@ -153,8 +153,8 @@ a {
   flex: 1;
 }
 .container .item .item-name {
-  flex: 3;
+  flex: 2;
 }
 .container .item .item-year {
-  flex: 1;
+  flex: 1.5;
 }/*# sourceMappingURL=main.css.map */
