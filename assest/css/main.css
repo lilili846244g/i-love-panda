@@ -16,6 +16,7 @@ body {
   overflow: hidden !important;
   font-family: "Aeonik", sans-serif;
   background: #003300;
+  color: #fff;
 }
 html .nav,
 body .nav {
@@ -25,13 +26,16 @@ body .nav {
   display: flex;
   justify-content: space-between;
   overflow-x: hidden;
-  font-size: 1.5rem;
+}
+html .nav p,
+body .nav p {
+  font-size: 2.4rem;
   font-weight: 700;
 }
 @media (max-width: 900px) {
-  html .nav,
-  body .nav {
-    font-size: 1.2rem;
+  html .nav p,
+  body .nav p {
+    font-size: 1.8rem;
   }
 }
 html .footer,
@@ -62,7 +66,7 @@ a {
   height: 700px;
   padding: 2em;
   background: #FFCA78;
-  color: #311803;
+  color: #000;
   overflow-x: hidden;
   overflow-y: scroll;
   z-index: 2;
@@ -90,31 +94,50 @@ a {
   flex: 3;
 }
 .overlay .overlay-header .col:nth-child(2) {
-  flex: 2;
+  flex: 3;
 }
 .overlay .overlay-header .col:nth-child(2) #close-btn {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   gap: 5px;
-  opacity: 0.4;
+  opacity: 0.8;
   cursor: pointer;
+  color: #000;
+  font-size: 20px;
 }
-.overlay .overlay-header .col:nth-child(2) #close-btn i {
-  color: #fff;
+.overlay .overlay-header .col #item-name {
+  font-weight: 700;
+}
+.overlay .overlay-header .col #item-category {
+  font-size: 20px;
 }
 .overlay .item-details {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  padding: 1em 0 4em 0;
+  padding: 1em 0.5em 4em 0;
   color: #311803;
 }
 .overlay .item-details p:nth-child(1) {
-  flex: 3;
+  flex: 2;
 }
 .overlay .item-details p:nth-child(2) {
   flex: 2;
+}
+.overlay .item-details #item-name {
+  /*   word-break: keep-all; */
+  margin-bottom: 30px !important;
+}
+.overlay .item-details #item-copy {
+  letter-spacing: 2px;
+  font-size: 18px;
+}
+@media (max-width: 900px) {
+  .overlay .item-details #item-copy {
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
 }
 .overlay .img-container {
   width: 100%;
