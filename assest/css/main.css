@@ -119,6 +119,11 @@ a {
   padding: 1em 0.5em 4em 0;
   color: #311803;
 }
+@media (max-width: 900px) {
+  .overlay .item-details {
+    padding: 1em 0.5em 2em 0;
+  }
+}
 .overlay .item-details p:nth-child(1) {
   flex: 2;
 }

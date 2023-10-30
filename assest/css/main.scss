@@ -114,6 +114,9 @@ a {
         justify-content: space-between;
         padding: 1em 0.5em 4em 0;
         color: #311803;
+        @media (max-width: 900px) {
+            padding: 1em 0.5em 2em 0;
+        }
         p {
             &:nth-child(1) {
                 flex: 2;
