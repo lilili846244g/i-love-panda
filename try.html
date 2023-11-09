@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #video-container {
+            width: 100vw;
+            height: 100vh;
+        }
+    </style>
+</head>
+
+<body>
+    <button id="button1" data-video-source="Js2CNEC9jeQ">Button 1</button>
+    <button id="button2" data-video-source="FwHXZlm_s14">Button 2</button>
+    <div id="video-container"></div>
+
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script>
+        let player; // YouTube player object
+
+        function onYouTubeIframeAPIReady() {
+            player = new YT.Player('video-container', {
+                height: '360',
+                width: '640',
+                videoId: '', // Initial video ID will be set dynamically
+                playerVars: {
+                    'autoplay': 1,
+                    'controls': 1,
+                    'showinfo': 0,
+                    'rel': 0,
+                    'modestbranding': 1
+                },
+                events: {
+                    'onReady': onPlayerReady
+                }
+            });
+        }
+
+        function onPlayerReady(event) {
+            // Player is ready to receive commands
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const buttons = document.querySelectorAll('button');
+
+            buttons.forEach(button => {
+                button.addEventListener('click', function() {
+                    const videoSource = this.getAttribute('data-video-source');
+                    player.loadVideoById(videoSource);
+                });
+            });
+        });
+    </script>
+
+</body>
+
+</html>
