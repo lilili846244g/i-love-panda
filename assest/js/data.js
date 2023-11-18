@@ -111,7 +111,7 @@ const data = [
     {
         itemBkg:"./assest/image/花-2.png",
         itemName:"福來 ",
-        itemCategory:" 6.3萬粉",
+        itemCategory:"6.3萬粉",
         itemLink:"https://www.xiaohongshu.com/explore/6525dfdc000000001c014bef",
         itemCopy:
         "2009年9月27日出生于中国大熊猫保护研究中心雅安碧峰峡基地，谱系号759。母亲帼帼，父亲大熊猫芦芦，兄弟姐妹是耀耀、亮亮、美安、大熊猫平平、安安、大熊猫雅吉、大熊猫花生和双胞胎妹妹大熊猫姚欣。",
