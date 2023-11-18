@@ -18,6 +18,14 @@ body {
   background: #003300;
   color: #fff;
 }
+html #itemBkg,
+body #itemBkg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 html .nav,
 body .nav {
   position: fixed;
@@ -171,9 +179,10 @@ a {
 }
 .container .items {
   position: absolute;
-  width: 50%;
+  width: 40%;
   height: 400px;
   margin-top: 30%;
+  background-color: hsla(0, 2%, 22%, 0.5);
   display: flex;
   flex-direction: column;
   overflow-y: scroll;
@@ -183,13 +192,22 @@ a {
 }
 @media (max-width: 900px) {
   .container .items {
-    width: 100%;
+    width: 60%;
     bottom: 8em;
+  }
+}
+@media (max-width: 600px) {
+  .container .items {
+    width: 90%;
+    bottom: 5em;
   }
 }
 .container .item {
   display: flex;
   padding: 0.25em 0.1em;
+  font-weight: bolder;
+  font-size: 1.2em;
+  color: #fff;
   cursor: pointer;
 }
 .container .item .item-index {

@@ -1,71 +1,82 @@
 const data = [
     {
-        itemName:"和花",
-        itemCategory:"雌性",
-        itemLink:"https://www.xiaohongshu.com/explore/6415920a000000002701077a",
+        itemBkg:"./assest/image/花-2.png",/* ok */
+        itemName:"和花 ",
+        itemCategory:"81.1萬粉",
+        itemLink:"https://www.xiaohongshu.com/explore/6538935c000000001d014f8b",
         itemCopy:
         "和花是一只成都大熊猫基地的大熊猫，于2020年7月4日与双胞胎弟弟和叶出生在成都大熊猫繁育研究基地月亮产房，初生体重200g，现居成都大熊猫繁育研究基地幼年园。母亲是大熊猫“成功”。 父亲是旅美大熊猫“美兰”,出生在美国亚特兰大动物园。",
         itemImg:"./assest/image/花-1.png",
     },
     {
+        itemBkg:"./assest/image/福-2.png", /* ok */
         itemName:"福宝",
-        itemCategory:" 雌性 ",
-        itemLink:"https://www.xiaohongshu.com/explore/65338430000000001f03fe0f",
+        itemCategory:" 72.8萬粉 ",
+        itemLink:"https://www.xiaohongshu.com/explore/654af0e4000000000f0273af",
         itemCopy:
         "福宝，雌性大熊猫，2020年7月20日出生于韩国三星爱宝乐园，母亲是大熊猫爱宝（国内呼名：华妮），父亲是大熊猫乐宝（国内呼名：园欣）。",
         itemImg:"./assest/image/福-1.png",
     },
     {
+        itemBkg:"./assest/image/绩笑-2.png",/* ok */
         itemName:"绩笑",
-        itemCategory:" 雌性",
-        itemLink:"https://www.xiaohongshu.com/explore/6525dfdc000000001c014bef",
+        itemCategory:" 59萬粉",
+        itemLink:"https://www.xiaohongshu.com/explore/64ffc3780000000016031969",
         itemCopy:
         "2019年6月5日出生于在成都大熊猫繁育研究基地太阳产房，初生体重166.8g。2019年全球首只圈养大熊猫。是成家班的一员，也是只“小灰灰”。母亲大熊猫绩丽。2019年10月21日，江中食疗宣布终身认养了大熊猫“绩笑”，改名为“稀稀”，取自大熊猫系珍稀动物和江中猴姑米稀之意",
-        itemImg:"./assest/image/p-4.jpeg",
+        itemImg:"./assest/image/绩笑-1.png",
     },
     {
+        itemBkg:"./assest/image/润玥-2.png", /* ok */
         itemName:"二狗润玥",
-        itemCategory:" 雌性",
-        itemLink:"https://www.xiaohongshu.com/explore/6525dfdc000000001c014bef",
+        itemCategory:" 47.6萬粉",
+        itemLink:"https://www.xiaohongshu.com/explore/64a5f432000000001a011e36",
         itemCopy:
-        "2020年6月5日出生在成都大熊猫繁育研究基地月亮产房，初生体重172.6g。母亲是大熊猫园润，为园润的第二个孩子。是备受欢迎的大熊猫组合“玖菜花叶”中的一员。2021年5月25日，饭扫光集团认养大熊猫润玥，认养名为“菜菜”。",
-        itemImg:"./assest/image/p-5.jpeg",
+        "2012年8月25日出生在成都大熊猫繁育研究基地，初生体重137g。冰冰家族后代。父母是大熊猫园园和勇勇。",
+        itemImg:"./assest/image/润玥-1.png",
     },
     {
+        itemBkg:"./assest/image/萌兰-2.png",/* ok */
         itemName:"三太子萌兰",
-        itemCategory:" 雄性",
-        itemLink:"https://www.xiaohongshu.com/explore/6525dfdc000000001c014bef",
+        itemCategory:" 34.9萬粉",
+        itemLink:"https://www.xiaohongshu.com/explore/64be32d6000000000a01aca8",
         itemCopy:
         "2015年7月4日22:13分出生于成都大熊猫繁育研究基地，出生体重179.8g，小名么么儿，是熊猫家族的明星成员之一。2017年9月21日，萌兰乘飞机返回北京。10月16日，在北京动物园与游客正式见面，现居北京动物园。",
-        itemImg:"./assest/image/p-6.jpeg",
+        itemImg:"./assest/image/萌兰-1.png",
     },
-
     {
-        itemName:"天线宝宝奇一",
-        itemCategory:" 雌性",
-        itemLink:"https://www.xiaohongshu.com/explore/6525dfdc000000001c014bef",
+        itemBkg:"./assest/image/花-2.png",
+        itemName:"福星胖大海",
+        itemCategory:" 熊猫 8 ",
+        itemLink:"https://www.xiaohongshu.com/explore/653e2a11000000001e00e4ae",
         itemCopy:
-        "出生于2016年7月1日，母亲奇缘，谱系号:1008，生活于成都大熊猫繁育研究基地，还有一个双胞胎妹妹“奇果”。它爬起来步伐还有些蹒跚，喝水也慢条斯理，但是一见到饲养员就变得无比敏捷，频频使出“抱大腿”特技。2017年2月，奇一抱大腿成网红，萌翻全球熊猫粉丝。",
-        itemImg:"./assest/image/p-7.jpeg",
+        "大熊猫福星于2017年6月25日出生于中国大熊猫保护研究中心雅安碧峰峡，谱系号1072，昵称胖大海，母亲是大熊猫瑛华，父亲是救助的野生大熊猫芦芦，在中心17届熊猫宝宝对外展出时，因体型巨大，毛色呈粉红色，在同一届熊猫宝宝中格外突出，被网友取名“胖大海”，之后，又因为一组蹲墙角的照片，爆红网络，成为新一代网红熊,目前居住在北京动物园",
+        itemImg:"./assest/image/大海.png",
     },
-
     {
+        itemBkg:"./assest/image/丫丫-2.png",
         itemName:"丫丫和乐乐",
         itemCategory:" 雌性 ",
         itemLink:"https://www.xiaohongshu.com/explore/6525dfdc000000001c014bef",
         itemCopy:
-        "丫丫雌性，谱系号507，2000年8月3日出生在北京动物园，母亲是大熊猫乐乐（谱系号320）。2003年4月，旅居美国田纳西州孟菲斯动物园 ，协议期限为10年，2013年到期后又延长了10年。2022年12月21日，孟菲斯动物园宣布，将把旅美大熊猫丫丫归还中国，结束20年的租借期  。",
-        itemImg:"./assest/image/p-8.jpeg",
-    },  
+        "丫丫雌性，谱系号507，2000年8月3日出生在北京动物园，母亲是大熊猫乐乐（谱系号320）。2003年4月，旅居美国田纳西州孟菲斯动物园 ，协议期限为10年，2013年到期后又延长了10年。2022年12月21日，孟菲斯动物园宣布，将把旅美大熊猫丫丫归还中国，结束20年的租借期。现居北京动物园",
+        itemImg:"./assest/image/丫丫-1.png",
+    }, 
+
     {
-        itemName:"福星胖大海",
-        itemCategory:" 熊猫 8 ",
-        itemLink:"https://www.xiaohongshu.com/explore/6525dfdc000000001c014bef",
+        itemBkg:"./assest/image/美香-1.png",
+        itemName:"美香",
+        itemCategory:" 13.7萬粉",
+        itemLink:"https://www.xiaohongshu.com/explore/654fa4640000000032030268",
         itemCopy:
-        "大熊猫福星于2017年6月25日出生于中国大熊猫保护研究中心雅安碧峰峡，谱系号1072，昵称胖大海，母亲是大熊猫瑛华，父亲是救助的野生大熊猫芦芦，在中心17届熊猫宝宝对外展出时，因体型巨大，毛色呈粉红色，在同一届熊猫宝宝中格外突出，被网友取名“胖大海”，之后，又因为一组蹲墙角的照片，爆红网络，成为新一代网红熊",
-        itemImg:"./assest/image/p-10.jpeg",
+        "1998年7月22日出生于中国大熊猫保护研究中心核桃坪野化培训基地，母亲是大熊猫雪雪。2000年12月6日，和大熊猫添添一起旅居在美国华盛顿国家动物园。当地时间2023年11月8日，旅美大熊猫“美香”“添添”和它们的幼崽“小奇迹”启程返回中国。  北京时间11月9日23时多，旅美大熊猫“美香”“添添”“小奇迹”抵达四川成都双流国际机场。",
+        itemImg:"./assest/image/美香-2.png",
     },
+
+   
+   
     {
+        itemBkg:"./assest/image/花-2.png",
         itemName:"圓潤女士",
         itemCategory:" 雌性",
         itemLink:"https://www.xiaohongshu.com/explore/6525dfdc000000001c014bef",
@@ -74,6 +85,7 @@ const data = [
         itemImg:"./assest/image/p-11.jpeg",
     },
     {
+        itemBkg:"./assest/image/花-2.png",
         itemName:"和叶",
         itemCategory:" 熊猫 10",
         itemLink:"https://www.xiaohongshu.com/explore/6525dfdc000000001c014bef",
@@ -82,6 +94,7 @@ const data = [
         itemImg:"./assest/image/p-12.jpg",
     },
     {
+        itemBkg:"./assest/image/花-2.png",
         itemName:"白天",
         itemCategory:" 雌性",
         itemLink:"https://www.xiaohongshu.com/explore/6525dfdc000000001c014bef",
@@ -90,6 +103,7 @@ const data = [
         itemImg:"./assest/image/p-12.jpg",
     },
     {
+        itemBkg:"./assest/image/花-2.png",
         itemName:"梅兰",
         itemCategory:" 雌性",
         itemLink:"https://www.xiaohongshu.com/explore/6525dfdc000000001c014bef",
@@ -98,6 +112,7 @@ const data = [
         itemImg:"./assest/image/p-12.jpg",
     },
     {
+        itemBkg:"./assest/image/花-2.png",
         itemName:"福來 ",
         itemCategory:" 雌性",
         itemLink:"https://www.xiaohongshu.com/explore/6525dfdc000000001c014bef",
@@ -106,6 +121,7 @@ const data = [
         itemImg:"./assest/image/p-12.jpg",
     },
     {
+        itemBkg:"./assest/image/花-2.png",
         itemName:"蔓越煤",
         itemCategory:" 雌性",
         itemLink:"https://www.xiaohongshu.com/explore/6525dfdc000000001c014bef",
@@ -114,6 +130,7 @@ const data = [
         itemImg:"./assest/image/p-12.jpg",
     },
     {
+        itemBkg:"./assest/image/花-2.png",
         itemName:"艾玖",
         itemCategory:" 雌性",
         itemLink:"https://www.xiaohongshu.com/explore/6525dfdc000000001c014bef",
@@ -122,6 +139,16 @@ const data = [
         itemImg:"./assest/image/p-12.jpg",
     },
     {
+        itemBkg:"./assest/image/花-2.png",
+        itemName:"渝可渝愛",
+        itemCategory:"5萬粉",
+        itemLink:"https://www.xiaohongshu.com/explore/6525dfdc000000001c014bef",
+        itemCopy:
+        "哥哥名叫“渝可”，妹妹名叫“渝爱”。“渝可”和“渝爱”两兄妹于2022年7月22日出生，哥哥初生体重132克，妹妹初生体重91克，在重庆动物园饲养员悉心照顾下茁壮成长",
+        itemImg:"./assest/image/p-12.jpg",
+    },
+    {
+        itemBkg:"./assest/image/花-2.png",
         itemName:"成实",
         itemCategory:"雄性",
         itemLink:"https://www.xiaohongshu.com/explore/6525dfdc000000001c014bef",
@@ -130,15 +157,9 @@ const data = [
         itemImg:"./assest/image/p-12.jpg",
     },
    
+    
     {
-        itemName:"福气多",
-        itemCategory:"雌性",
-        itemLink:"https://www.xiaohongshu.com/explore/6525dfdc000000001c014bef",
-        itemCopy:
-        "福多多（噗噗），大熊猫，雌性 。2021年7月17日出生在成都大熊猫繁育研究基地太阳产房。母亲是大熊猫奇福 。 2022年2月15日凌晨2时，妈妈奇福因病医治无效，不幸离世 [3] 。福多多搬到月亮产房，跟着干妈大熊猫雅莉 [4] 和雅莉的女儿雅颂 [5] 一起生活。",
-        itemImg:"./assest/image/p-12.jpg",
-    },
-    {
+        itemBkg:"./assest/image/花-2.png",
         itemName:"泰山",
         itemCategory:"雄性",
         itemLink:"https://www.xiaohongshu.com/explore/6525dfdc000000001c014bef",
@@ -147,6 +168,7 @@ const data = [
         itemImg:"./assest/image/p-12.jpg",
     },
     {
+        itemBkg:"./assest/image/花-2.png",
         itemName:"娇奥",
         itemCategory:"雌性",
         itemLink:"https://www.xiaohongshu.com/explore/6525dfdc000000001c014bef",
@@ -155,6 +177,7 @@ const data = [
         itemImg:"./assest/image/p-12.jpg",
     },
     {
+        itemBkg:"./assest/image/花-2.png",
         itemName:"七仔",
         itemCategory:"雄性",
         itemLink:"https://www.xiaohongshu.com/explore/64a3fed2000000002f02864d",
