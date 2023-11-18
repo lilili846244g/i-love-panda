@@ -204,7 +204,7 @@ a {
 }
 .container .item {
   display: flex;
-  padding: 0.25em 0.1em;
+  padding: 0.2em 0.5em;
   font-weight: 500;
   font-size: 1.2em;
   color: #fff;
