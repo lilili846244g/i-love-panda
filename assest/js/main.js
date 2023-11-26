@@ -9,10 +9,7 @@ const t1 = gsap.timeline({ paused: true, overwrite:"auto" });
 
 t1.to (itemBkg,{
     duration:2,
-    width: "80%",  
-    height: "80%",
-    left:"10%",
-    top:"10%",
+    scale: 1.1, 
     ease:"power3.inOut",
 });
 
@@ -39,7 +36,6 @@ closeBtn.addEventListener("click", () => {
 
 
 function updateOverlay(dataItem){
-  
     const itemName = document.querySelector("#item-category").previousElementSibling;
     const itemCategory = document.querySelector("#item-category");
     const itemLink = document.querySelector("#item-link");
@@ -50,7 +46,7 @@ function updateOverlay(dataItem){
     itemBkg.style.backgroundImage = `url('${dataItem.itemBkg}')`; // Set background image
     itemBkg.style.backgroundSize = "cover"; // Adjust background size as needed 
     itemBkg.style.backgroundRepeat = "no-repeat"; // Prevent background image from repeating
-    itemBkg.style.backgroundPosition = "center";
+    itemBkg.style.backgroundPosition = "50% center";
     
 
 
